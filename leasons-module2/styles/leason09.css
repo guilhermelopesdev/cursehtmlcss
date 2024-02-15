@@ -1,0 +1,15 @@
+/* Todo elemento com 4 propriedades que são na seguinte ordem de dentro para fora
+    - Conteudo
+    - Padding
+    - Border
+    - Margin
+ */
+div {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    /* O Margin é o espaçamento externo do elemento */
+    margin: 50px;
+    /* Padding é o espaçamento interno do elemento */
+    padding: 50px;
+}
