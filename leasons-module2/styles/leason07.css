@@ -1,0 +1,12 @@
+/* A primeira forma de definir uma cor no css é por nome, existem 140 nomes de cores cadastrados no css */
+#nome {
+    color: green;
+}
+/* A segunda forma é por meio de código rgb */
+#rgb {
+    color: rgb(255, 0, 0);
+}
+/* A terceira forma é usando o código HEX */
+#hex {
+    color: #0000FF;
+}
