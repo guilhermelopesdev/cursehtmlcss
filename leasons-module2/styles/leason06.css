@@ -1,0 +1,20 @@
+/* Primeira forma de seleção é via elemento */
+h1 {
+    color: blue;
+}
+/* Segunda forma de seleção é via ID */
+#subtittle {
+    color: orange;
+}
+/* Terçeira forma e uma entre as mais usadas é por classe */
+.text {
+    color: green;
+}
+/* Outra forma bem parecida com a primeira é usando atributo, classe ou div dentro de outros */
+ul li {
+    color: blueviolet;
+}
+/* Ainda é possivel selecionar mais de um atributo na mesmas definiçōes, usando a vírgula */
+#subtittle, .text {
+    font-weight: bold;
+}
