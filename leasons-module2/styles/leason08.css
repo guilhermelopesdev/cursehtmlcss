@@ -1,0 +1,12 @@
+p {
+    /* Pode-se adicionar uma borda em apenas um dos lados do objeto */
+    border-bottom: 3px dotted purple;
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    /* Pode-se criar uma borda arredondada para o objeto usando o atributo abaixo */
+    border-radius: 100px;
+    border: 3px solid palevioletred;
+}
