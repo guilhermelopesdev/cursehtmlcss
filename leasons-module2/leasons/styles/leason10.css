@@ -1,0 +1,15 @@
+.elementoa {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* Pode se usar para definir um tamanho valores de px, cm, % e auto. Caso ainda queira, podese usar
+    a definição auto, que serve para definir um valor automatico da imagem */
+}
+.elementob {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+.elementob img {
+    width: inherit;
+}
