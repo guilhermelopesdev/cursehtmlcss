@@ -1,0 +1,9 @@
+.google {
+    color: violet;
+}
+.google:hover {
+    color: red;
+}
+.google:visited {
+    color: orange;
+}
