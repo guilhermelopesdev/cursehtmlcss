@@ -1,0 +1,12 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    
+    box-sizing: border-box;
+    /* Este atributo faz com que o tamanho total do elemento, sem as margens, seja o valor
+    definido em width e heigth. Ele desconta o valor na área interna do elemento*/
+}
