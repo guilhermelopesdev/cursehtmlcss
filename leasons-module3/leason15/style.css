@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: #4A4E4D;
+}
+label {
+    font-size: 20px;
+    color: #3DA4AB;
+    display: block;
+    margin-bottom: 15px;
+}
+input {
+    height: 20px;
+    line-height: 20px;
+}
+label input[type=text], label textarea, select{
+    font-size: 15px;
+    background-color: #F6CD61;
+    color: white;
+    border: 0;
+    box-shadow: 3px 3px 0 black;
+    resize: none;
+    outline: none;
+}
+input[type=text]:focus, textarea:focus {
+    background-color: #3DA4AB;
+}
+a {
+    color: #3DA4AB;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    width: 70px;
+    height: 25px;
+    background-color: #3DA4AB;
+    color: white;
+    border: 0;
+    box-shadow: 3px 3px 0  black;
+}
+button:hover {
+    background-color: #F6CD61;
+}

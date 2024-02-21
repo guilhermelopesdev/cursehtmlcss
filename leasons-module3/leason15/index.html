@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Leason 14 - Formatando formulários com CSS (1/2)</title>
+</head>
+<body>
+    <form action="index.html" method="get">
+        <label for="name">
+            Nome Completo <br>
+            <input type="text" name="name" id="name">
+        </label>
+        <label for="descricao">
+            Descrição <br>
+            <textarea name="descricao" id="descricao"></textarea>
+        </label>
+        <label for="category">
+            Category <br>
+            <select name="category" id="category">
+                <option value="op1">Opção 1</option>
+                <option value="op2">Opção 2</option>
+                <option value="op3">Opção 3</option>
+                <option value="op4">Opção 4</option>
+                <option value="op5">Opção 5</option>
+            </select>
+        </label>
+        <label for="termos">
+            <input type="checkbox" name="termos" id="termos">
+            Eu declaro que li e concordo com os <a href="termos.index" target="_blank">termos de uso</a>.
+        </label>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
