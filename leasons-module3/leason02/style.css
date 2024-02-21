@@ -1,0 +1,15 @@
+.p1 {
+    text-transform: uppercase;
+}
+.p2 {
+    letter-spacing: 10px;
+}
+.p3 {
+    word-spacing: 10px;
+}
+.p4 {
+    line-height: 100px;
+}
+.p5 {
+    text-shadow: 2px 2px 3px violet;
+}
