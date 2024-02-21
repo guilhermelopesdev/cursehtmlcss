@@ -1,0 +1,20 @@
+table {
+    width: 600px;
+    text-align: center;
+}
+tbody {
+    cursor: crosshair;
+}
+td, th {
+    padding: 5px;
+}
+thead {
+    background-color: #ccc;
+}
+tbody tr:nth-child(even){
+    background-color: #eee;
+}
+tbody tr:hover {
+    background-color: yellow;
+    color: red;
+}
