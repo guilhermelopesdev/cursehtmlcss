@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Leason 16 - Validações Nativas (1/2)</title>
+    <title>Leason 18 - Validações Nativas (2/2)</title>
 </head>
 <body>
     <fieldset>
@@ -40,6 +40,14 @@
                 Repita sua Senha <br>
                 <input type="password" name="regpasswordrepeat" id="regpassword">
             </label><br>
+            <label for="regdate">
+                Data de Nascimento <br>
+                <input type="date" name="regdate" id="regdate" required min="2006-01-01">
+            </label> <br>
+            <label for="regnumber">
+                Numero par preferido <br>
+                <input type="number" name="regnumber" id="regnumber" required step="2">
+            </label> <br>
             <label for="regterms">
                 <input type="checkbox" name="regterms" id="regterms">
                 Eu confirmo que li e aceito os <a href="terms.html">termos de uso</a>.
