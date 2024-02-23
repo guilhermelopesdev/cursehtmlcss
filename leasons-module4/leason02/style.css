@@ -1,0 +1,13 @@
+.container {
+    color: red;
+    text-decoration: underline;
+}
+div {
+    color: blue;
+}
+.container {
+    text-decoration: none;
+}
+div .container {
+    text-decoration: underline;
+}
