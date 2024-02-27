@@ -1,0 +1,10 @@
+@media only print {
+    h1 {
+        text-align: center;
+    }
+    p {
+        width: 60vh;
+        margin: auto;
+        text-align: center;
+    }
+}
