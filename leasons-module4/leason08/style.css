@@ -1,0 +1,9 @@
+h1 {
+    font-size: 40px;
+}
+div {
+    font-size: 15px;
+}
+.tittleindiv {
+    font-size: inherit;
+}
