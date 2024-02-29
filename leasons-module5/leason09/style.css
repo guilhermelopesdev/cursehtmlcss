@@ -1,0 +1,8 @@
+:root {
+    --div-color: purple;
+}
+div {
+    width: 400px;
+    height: 400px;
+    background-color: var(--div-color);
+}

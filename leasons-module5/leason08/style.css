@@ -1,0 +1,5 @@
+@media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 1/1) {
+    body {
+        background-color: blue;
+    }
+}

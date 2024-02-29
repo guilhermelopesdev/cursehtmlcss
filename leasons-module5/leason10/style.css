@@ -1,0 +1,26 @@
+:root {
+    --content-color: green;
+    --content-width: 400px;
+    --content-height: 400px;
+    --content-boder: 200px;
+    --tittle-size: 24px
+}
+h1 {
+    text-align: center;
+    font-size: var(--tittle-size);
+}
+div {
+    margin: auto;
+    width: var(--content-width);
+    height: var(--content-height);
+    border-radius: var(--content-boder);
+    background-color: var(--content-color);
+}
+@media (max-width: 400px) {
+    :root {
+        --content-width: 100px;
+        --content-height: 100px;
+        --content-border: 50px;
+        --tittle-size: 10px;
+    }
+}
