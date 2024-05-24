@@ -1,0 +1,43 @@
+@keyframes exemplo {
+    0%{
+        background-color: yellow;
+        color: yellow;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    25%{
+        background-color: darkblue;
+        color: yellow;
+        margin-top: 0;
+        margin-left: 500px;
+    }
+    50%{
+        background-color: darkblue;
+        color: darkblue;
+        margin-top: 500px;
+        margin-left: 500px;
+    }
+    75%{
+        background-color: yellow;
+        color: darkblue;
+        margin-top:500px;
+        margin-left: 0;
+    }
+    100%{
+        background-color: yellow;
+        color: yellow;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+
+    animation: 10s infinite exemplo;
+
+}

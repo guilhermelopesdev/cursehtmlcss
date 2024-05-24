@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+}
+.container{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: blue;
+
+    box-shadow: 10px 10px orange;
+}
