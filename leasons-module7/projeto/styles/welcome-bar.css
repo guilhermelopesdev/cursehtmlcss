@@ -1,0 +1,6 @@
+.welcome-bar {
+    height: 500px;
+    background-image:url('../assets/img1.jpg');
+    background-position: center;
+    background-size: cover;
+}

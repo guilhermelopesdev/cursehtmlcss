@@ -1,0 +1,25 @@
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar-area-1, .top-bar-area-2 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.top-bar-area-2 ul {
+    display: flex;
+}
+.top-bar-area-2 a {
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.top-bar-area-2 a:hover , .top-bar-area-2 #active {
+    background-color: rgb(0, 106, 255);
+    color: white;
+}
