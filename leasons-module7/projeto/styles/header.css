@@ -20,6 +20,6 @@ header {
     transition: all 0.5s;
 }
 .top-bar-area-2 a:hover , .top-bar-area-2 #active {
-    background-color: rgb(0, 106, 255);
+    background-color: blue;
     color: white;
 }
