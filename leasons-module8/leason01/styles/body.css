@@ -1,0 +1,17 @@
+:root {
+    --main-bg-color: #393B4E;
+    --tittle-text-color: #CE7D16;
+    --subtittle-text-color: #C7C398;
+    --normal-text-color: #fff;
+}
+
+body, header, section, footer{
+    background-color: var(--main-bg-color);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+.container img {
+    border: 2px solid var(--tittle-text-color);
+    box-shadow: 5px 5px black;
+    margin-bottom: 20px;
+}
+.container article {
+    color: var(--normal-text-color);
+}
+.container table {
+    border: 1px solid var(--normal-text-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.container table .date {
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background-color: var(--tittle-text-color);
+    color: var(--normal-text-color);
+    font-size: 20px;
+}
+.container table td:not(.date) {
+    color: var(--normal-text-color);
+    text-transform: uppercase;
+    font-size: 20px;
+}

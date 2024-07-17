@@ -1,0 +1,12 @@
+footer a, footer a:hover, footer a:visited {
+    color: var(--normal-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer p, footer p a, footer p a:hover, footer p a:visited {
+    color:  var(--normal-text-color);
+    text-transform: none;
+}
+footer p {
+    margin: 20px;
+}
