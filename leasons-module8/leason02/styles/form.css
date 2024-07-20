@@ -1,0 +1,21 @@
+form {
+    width: 300px;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid orange;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 7px black;
+}
+form h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+input:focus {
+    color: white;
+    background-color: orange;
+}
