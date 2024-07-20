@@ -12,6 +12,9 @@
 .firth-section img {
     height: calc(100vh - 100px);
 }
+.firth-section-lateral-content, .firth-section img {
+    padding: 50px;
+}
 .firth-section-lateral-content strong{
     font-weight: bold;
     color: var(--links-color);
@@ -36,6 +39,6 @@
     width: 100px;
     height: 100px;
     margin: 50px;
-    background-color: red;
+    background-color: var(--tittle-primary-color);
     border-radius: 50px;
 }
