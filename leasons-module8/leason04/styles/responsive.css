@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+    .display-none-mobile {
+        display: none;
+    }
+    
+    header {
+        height: 50px;
+        
+    }
+    .perfil-image {
+        width: 40px;
+    }
+    .search-area {
+        height: calc(100vh - 215px);
+    }
+    .search-bar{
+        width: 90vw;
+    }
+    .search-bar input {
+        width: 70%;
+    }
+    .keyboard-search, .bottom-seach-buttons {
+        display: none;
+    }
+
+    .bottom-footer {
+        padding: 0px;
+        justify-content: center;
+        
+    }
+
+}

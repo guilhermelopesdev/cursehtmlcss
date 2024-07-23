@@ -1,0 +1,28 @@
+footer {
+    width: 100vw;
+    height: 100px;
+    background-color: #E5E5E5;
+}
+.top-footer {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #DADCE0;
+}
+.top-footer p {
+    padding-left: 20px;
+}
+
+.bottom-footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-footer-lefth {
+    padding-left: 20px;
+}
+.bottom-footer-right {
+    padding-right: 20px;
+}
+.bottom-footer a {
+    padding: 5px;
+}
