@@ -1,0 +1,9 @@
+a[href^="http://"]{
+    color: red;
+}
+a[href^="https://"]{
+    color: green;
+}
+a[href$=".dev"]{
+    color: purple;
+}

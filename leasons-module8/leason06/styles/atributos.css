@@ -1,0 +1,9 @@
+[required] {
+    background-color: red;
+}
+input[type=text]{
+    background-color: blue;
+}
+label[for="password"]{
+    color: green;
+}
