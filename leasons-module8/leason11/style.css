@@ -1,0 +1,3 @@
+body :not(p,a){
+    background-color: red;
+}
