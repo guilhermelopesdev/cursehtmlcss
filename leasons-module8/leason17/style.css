@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: rotate(40deg);
+    transition: all 1s;
+}
+div:hover {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(0);
+    transform: skew(40deg, 0);
+}
