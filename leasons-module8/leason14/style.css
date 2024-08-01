@@ -1,0 +1,15 @@
+.ballon {
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    background-color: #00f;
+    color: #fff;
+    border-radius: 5px;
+}
+.ballon::after {
+    content: "";
+    position: absolute;
+    display: block;
+    border: 20px solid;
+    border-color: #00f transparent transparent transparent;
+}
