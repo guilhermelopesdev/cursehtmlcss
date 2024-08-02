@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+input[type=submit] {
+    height: 40px;
+    font-size: 30px;
+    background: linear-gradient(#00f, #00a);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    transform: scale(1.1);
+}
