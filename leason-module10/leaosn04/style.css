@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    gap: 5px 5px;
+    grid-template-rows: 30px 30px auto;
+}
+.item {
+    background-color: blue;
+    color: white;
+
+}
