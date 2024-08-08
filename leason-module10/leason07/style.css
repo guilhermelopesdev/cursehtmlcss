@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(14, minmax(100px, 500px));
+    gap: 5px;
+}
+.item{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
